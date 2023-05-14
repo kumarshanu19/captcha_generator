@@ -1,6 +1,6 @@
 # @kumarshanu/captcha_generator
 
-![Captcha Generator](./captcha.png)
+![Captcha Generator](https://raw.githubusercontent.com/kumarshanu19/captcha_genrator/main/captcha.png)
 ```markdown
 ## Description
 A simple npm package that generates CAPTCHA images and corresponding text strings.
