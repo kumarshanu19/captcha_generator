@@ -1,7 +1,7 @@
 # @kumarshanu/captcha_generator
 
 ![Captcha Generator](https://raw.githubusercontent.com/kumarshanu19/captcha_genrator/main/captcha.png)
-```markdown
+
 ## Description
 A simple npm package that generates CAPTCHA images and corresponding text strings.
 
@@ -9,14 +9,7 @@ A simple npm package that generates CAPTCHA images and corresponding text string
 ```bash
 npm install @kumarshanu/captcha_generator
 ```
-## Usage
-```javascript
-import generate from '@kumarshanu/captcha_generator';
 
-// Generate a captcha
-const captcha = generate(200, 100, 6);
-console.log(captcha);
-```
 
 ## API
 
@@ -31,6 +24,7 @@ Generates a CAPTCHA image and returns an object with the base64-encoded image da
 ```javascript
 import generate from '@kumarshanu/captcha_generator';
 
+// Generate a captcha
 const captcha = generate(200, 100, 6);
 console.log(captcha);
 ```
