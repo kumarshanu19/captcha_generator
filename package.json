@@ -1,6 +1,6 @@
 {
   "name": "@kumarshanu/captcha_genrator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Introducing the Captcha Generator, an efficient npm package that provides a simple and secure solution for generating captcha codes. This versatile package utilizes popular keywords such as randomization, security, and verification to create unique and customizable captcha codes of varying lengths. With easy integration into your web applications, the Captcha Generator ensures protection against automated bots and malicious activities, safeguarding your platform's integrity and user experience. Whether you need a default length or a specific length defined by your application, this npm package offers flexibility and reliability in generating captchas with alternating capital letters, ensuring optimal security measures for your online forms and user registrations. Stay one step ahead of cyber threats with the Captcha Generator npm package and fortify your web applications with robust captcha validation.",
   "main": "index.js",
   "types": "index.d.ts",
