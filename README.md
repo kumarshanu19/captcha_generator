@@ -7,7 +7,7 @@ A simple npm package that generates CAPTCHA images and corresponding text string
 
 ## Installation
 ```bash
-npm install @kumarshanu/captcha_generator
+npm i @kumarshanu/captcha_genrator
 ```
 By default, binaries for macOS, Linux and Windows will be downloaded. If you want to build from source, use `npm install --build-from-source` and see the **Compiling** section below.
 
@@ -44,7 +44,7 @@ Generates a CAPTCHA image and returns an object with the base64-encoded image da
 
 ## Example
 ```javascript
-import generate from '@kumarshanu/captcha_generator';
+import generate from '@kumarshanu/captcha_genrator';
 
 // Generate a captcha
 const captcha = generate(200, 100, 6);
