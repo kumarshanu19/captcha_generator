@@ -44,11 +44,11 @@ Generates a CAPTCHA image and returns an object with the base64-encoded image da
 
 ## Example
 ```javascript
-import generate from '@kumarshanu/captcha_genrator';
+const generate = require('@kumarshanu/captcha_genrator');
 
 // Generate a captcha
-const captcha = generate(200, 100, 6);
-console.log(captcha);
+const {image, text} = generate(200, 100, 6);
+console.log({image, text});
 ```
 
 ## License
